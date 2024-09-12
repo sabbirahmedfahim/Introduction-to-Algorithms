@@ -9,7 +9,7 @@ void dijkstra(int src)       // O(V*E) -> bad time complexity in the naive versi
     queue<pair<int, int>> q;
     q.push({src, 0});
     dis[src] = 0;
-    while (!q.empty())
+    while (!q.empty()) 
     {
         pair<int, int> parent = q.front();
         q.pop();

@@ -4,7 +4,7 @@ const int N = 100;
 vector<pair<int, int>> v[N]; // node, weight(cost) pair
 int dis[N]; // dis-> distance
 class cmp // creating a compare class for sorting
-{
+{ 
 public: 
     bool operator()(pair<int, int> a, pair<int, int> b)
     {
