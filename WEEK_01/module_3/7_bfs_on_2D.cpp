@@ -1,16 +1,17 @@
-#include <bits/stdc++.h> 
+#include <bits/stdc++.h>
 using namespace std;
 bool vis[20][20];
 int dis[20][20];
-char arr[20][20];
-int n, m;
 vector<pair<int, int>> d = {{0, 1}, {0, -1}, {-1, 0}, {1, 0}};
-bool is_valid(int ci, int cj)
+int n, m;
+char a[20][20];
+bool valid(int i, int j)
 {
-    if (ci >= n || ci < 0 || cj >= m || cj < 0)
+    if (i < 0 || i >= n || j < 0 || j >= m)
         return false;
     return true;
 }
+
 void bfs(int si, int sj)
 {
     queue<pair<int, int>> q;
@@ -20,18 +21,18 @@ void bfs(int si, int sj)
     while (!q.empty())
     {
         pair<int, int> par = q.front();
+        int a = par.first, b = par.second;
+        cout << a << " " << b << endl;
         q.pop();
-        cout << par.first << " " << par.second << endl;
         for (int i = 0; i < 4; i++)
         {
-            int ci = par.first + d[i].first;  // i-th index of children
-            int cj = par.second + d[i].second; // j-th index of children
-
-            if (is_valid(ci, cj) && !vis[ci][cj])
+            int ci = a + d[i].first;
+            int cj = b + d[i].second;
+            if (valid(ci, cj) == true && vis[ci][cj] == false)
             {
                 q.push({ci, cj});
                 vis[ci][cj] = true;
-                dis[ci][cj] = dis[par.first][par.second]+1;
+                dis[ci][cj] = dis[a][b] + 1;
             }
         }
     }
@@ -43,15 +44,14 @@ int main()
     {
         for (int j = 0; j < m; j++)
         {
-            cin >> arr[i][j];
+            cin >> a[i][j];
         }
     }
-    int si; // si -> i-th index of source
-    int sj; // sj -> j-th index of source
+    int si, sj;
     cin >> si >> sj;
     memset(vis, false, sizeof(vis));
-    memset(dis, -1, sizeof(dis)); 
+    memset(dis, -1, sizeof(dis));
     bfs(si, sj);
-
+    
     return 0;
 }
