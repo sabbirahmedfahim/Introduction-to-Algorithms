@@ -1,0 +1,1 @@
+BFS calculates the shortest path or distance in an unweighted graph. However, it has a limitation: BFS does not work correctly on weighted graphs and can produce incorrect results. In such cases, we need to use **Dijkstra's Algorithm**. 
