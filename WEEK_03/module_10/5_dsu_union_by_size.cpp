@@ -25,7 +25,7 @@ void dsu_union(int node1, int node2) // Basic union operation (without size opti
 {
     int leaderA = dsu_find(node1);
     int leaderB = dsu_find(node2);
-    par[leaderA] = leaderB;
+    par[leaderA] = leaderB; // A er leader B
 }
 void dsu_union_by_size(int node1, int node2) // optimized version
 {
@@ -50,6 +50,8 @@ int main()
     // CAN YOU GUESS THE OUTPUT ??
 
     dsu_initialize(7); // Initialize DSU for 7 elements
+    // dsu_union(1,2); // remove comment and run to understand
+    // dsu_union(2,3); // remove comment and run to understand
     dsu_union_by_size(1, 2);
     dsu_union_by_size(2, 3);
     // 3-4 are not connected
@@ -57,8 +59,9 @@ int main()
     dsu_union_by_size(5, 6);
     // finding the leaders of the two seperate groups
     cout << "leader of " << 1 << " is - " << dsu_find(1) << endl;
-    cout << "leader of " << 2 << " is - " << dsu_find(2) << endl;
-    cout << "leader of " << 6 << " is - " << dsu_find(6) << endl << endl << endl;
+    cout << "leader of " << 5 << " is - " << dsu_find(5) << endl;
+    // cout << "leader of " << 6 << " is - " << dsu_find(6) << endl;
+    cout << endl << endl;
 
     // lets connect the two seperate groups
     dsu_union_by_size(1, 6); // Comment this out and uncomment the next line to understand the basics

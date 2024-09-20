@@ -11,7 +11,7 @@ void dsu_initialize(int n)
     for (int i = 0; i < n; i++)
     {
         par[i] = -1;
-        group_size[i] = 1; 
+        // group_size[i] = 1; // used for dsu_union_by_level
         level[i] = 0; // initializing levels with 0
     }
 }
@@ -29,24 +29,6 @@ void dsu_union(int node1, int node2) // Simple union without optimizations (not 
     int leaderB = dsu_find(node2);
     par[leaderA] = leaderB;
 }
-// void dsu_union_by_size(int node1, int node2) // optimized version
-// {
-//     int leaderA = dsu_find(node1); /// Find the leader of node1
-//     int leaderB = dsu_find(node2); // Find the leader of node2
-
-//     // Attach the smaller group under the larger group ***
-//     if (group_size[leaderA] > group_size[leaderB])
-//     {
-//         // par[leaderA] = leaderB; // u should understand the logic why it is wrong
-//         par[leaderB] = leaderA; // The smaller group joins the larger group
-//         group_size[leaderA] += group_size[leaderB]; // Updating the size of the new group
-//     }
-//     else
-//     {
-//         par[leaderA] = leaderB; // The smaller group joins the larger group
-//         group_size[leaderB] += group_size[leaderA]; // Updating the size of the new group
-//     }
-// }
 void dsu_union_by_level(int node1, int node2) // optimized version ((height of the tree))
 {
     int leaderA = dsu_find(node1);

@@ -9,10 +9,10 @@ void dsu_initialize(int n)
         par[i] = -1;
     }
     // you should imagine/draw the array and parent-node relation
-    par[1] = 2;
-    par[2] = 3;
-    par[5] = 6;
-    par[6] = 7;
+    par[1] = 2; // leader of 1 is 2
+    par[2] = 3; // leader of 2 is 3
+    par[5] = 6; // leader of 5 is 6
+    par[6] = 7; // leader of 6 is 7
 }
 int dsu_find(int node) // highly suggested animated video
 {
@@ -23,9 +23,9 @@ int dsu_find(int node) // highly suggested animated video
 } 
 void dsu_union(int node1, int node2) 
 {
-    int leaderA = dsu_find(node1); // it will return the leader of node1
-    int leaderB = dsu_find(node2); // it will return the leader of node2
-    par[leaderA] = leaderB; // sacrificing the leaderA, now single leader of the union is mr leaderB
+    int leaderA = dsu_find(node1); // 3
+    int leaderB = dsu_find(node2); // 7
+    par[leaderA] = leaderB; // A er leader B
 }
 int main()
 {

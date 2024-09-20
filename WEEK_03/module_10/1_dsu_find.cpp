@@ -9,8 +9,8 @@ void dsu_initialize(int n)
         par[i] = -1;
     }
     // check the previous file to understand
-    par[1] = 3;
-    par[2] = 1;
+    par[1] = 3; // the leader of 1 is 3
+    par[2] = 1; // the leader of 2 is 1
 }
 int dsu_find(int node)
 {
