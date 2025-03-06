@@ -1,3 +1,6 @@
+### Counting Cycle ***
+If the graph is undirected, each cycle is counted twice. You need to divide the total cycle count by 2.
+
 ### Undirected NOT a Cycle
 ![alt text](image-3.png)
 Lesson: we need minimum three nodes to detect cycle in undirected graphs
