@@ -42,8 +42,8 @@
 - Directed Graph, Using DFS
 
 ## 🚀 Dijkstra
-- Can Go (Don't forget to use inf = 1e18;)
-- Use It
+- Dijkstra Optimized (including Parent Tracking)
+- Can Go Don't forget to use INF = 1e18
 
 ## 🔔 Bellman-Ford Algorithm
 - Can Go Again
