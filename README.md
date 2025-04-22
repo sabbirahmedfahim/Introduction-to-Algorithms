@@ -1,9 +1,5 @@
 # Data Structures
-<p align="center">
-  <a href="https://github.com/sabbirahmedfahim/DSA-CheatSheet/tree/main">
-    <img src="https://img.shields.io/badge/📚_Full_DSA_Cheat_Sheet-Repository-8A2BE2?style=for-the-badge&logo=github" alt="DSA Cheat Sheet Repository">
-  </a>
-</p>
+**↗ [DSA Cheat Sheet Repository](https://github.com/sabbirahmedfahim/DSA-CheatSheet/tree/main)**  
 
 ## 📈 Binary Search
 - Basic Implementation
