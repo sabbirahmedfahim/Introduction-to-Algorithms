@@ -1,3 +1,18 @@
+/*
+Input: 
+6 7
+0 1
+1 2
+1 3
+2 4
+2 5
+4 5
+4 3
+0
+5
+Expected Output: 
+0 1 2 5 
+*/
 #include <bits/stdc++.h>
 using namespace std;
 vector<int> v[1005];
@@ -26,21 +41,6 @@ void bfs(int src)
         }
     }
 }
-/*
-Input: 
-6 7
-0 1
-1 2
-1 3
-2 4
-2 5
-4 5
-4 3
-0
-5
-Expected Output: 
-0 1 2 5 
-*/
 int main()
 {
     int n, e;
