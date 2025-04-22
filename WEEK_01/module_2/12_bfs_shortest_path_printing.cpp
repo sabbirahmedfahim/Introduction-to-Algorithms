@@ -17,7 +17,7 @@ Expected Output:
 using namespace std;
 vector<int> v[1005];
 bool vis[1005];
-int level[1005];
+int level[1005]; /* level == distance == cost */  
 int parent[1005]; // parent, par variable are different
 void bfs(int src)
 {
@@ -35,7 +35,7 @@ void bfs(int src)
             {
                 q.push(child);
                 vis[child] = true;
-                level[child] = level[par] + 1;
+                level[child] = level[par] + 1; /* level == distance == cost */  
                 parent[child] = par; // parent, par variable are different
             }
         }
