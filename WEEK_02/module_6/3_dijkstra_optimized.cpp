@@ -1,30 +1,35 @@
+/*
+Input:
+5 8
+0 1 10
+0 2 7
+0 3 4
+1 4 3
+2 4 5
+2 1 1
+3 4 5
+3 2 1
+0 4
+Output:
+9
+*/
 #include <bits/stdc++.h>
 using namespace std;
-const int N = 100;
-vector<pair<int, int>> v[N]; // node, weight(cost) pair
-int dis[N]; // dis-> distance
-class cmp // creating a compare class for sorting
-{ 
-public: 
-    bool operator()(pair<int, int> a, pair<int, int> b)
-    {
-        return a.second > b.second; // true or false, return korbeiiii 
-    }
-};
+const int N = 1E4;
+vector<pair<int, int>> v[N]; // Node and weight (cost) pair
+int dis[N]; /* dis == cost */
+
 void dijkstra(int src) // O(logV(V+E)) -> O(VlogV + ElogV) -> O(VlogV + ElogE)
 {
-    // queue<pair<int, int>> q; // used in the naive version
-    // priority_queue<pair<int, int>, vector < pair < int, int >>> pq; // represents priority queue (version 1.pq)
-    priority_queue<pair<int, int>, vector < pair < int, int >>, cmp > pq; // represents priority queue (compare class added)
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq; // Min-heap by default
     pq.push({src, 0});
     dis[src] = 0;
     while (!pq.empty())
     {
-        // pair<int, int> parent = pq.front(); // not front
         pair<int, int> parent = pq.top();
         pq.pop();
-        int node = parent.first;  // AKA nodeVal or parentNode
-        int cost = parent.second; // AKA parentCost
+        int node = parent.first;  // or nodeVal or parentNode
+        int cost = parent.second; // or parentCost
         for (pair<int, int> child : v[node]) // range based for loop
         {
             int childNode = child.first;
@@ -47,33 +52,22 @@ int main()
         int a, b, c; // c => cost
         cin >> a >> b >> c;
         v[a].push_back({b, c}); // as easy as you think. noting but an adj list
-        v[b].push_back({a, c});
+        v[b].push_back({a, c}); // undirected
     }
-    for (int i = 0; i < n; i++) // using for loop as memset not working properly
-    {
-        dis[i] = INT_MAX;
-    }
-    dijkstra(0);
+    
+    memset(dis, 999999, sizeof(dis));
 
-    /*
-    // THIS PART IS NOT UNDERSTANDING HOW PRIORITY QUEUE WORKS
-    priority_queue<pair<int, int>, vector < pair < int, int >>> pq;
-    priority_queue<pair<int, int>, vector < pair < int, int >>, cmp> pq; // added cmp class
-    pq.push({1, 10});
-    pq.push({3, 7});
-    pq.push({2, 15});
-    pq.push({4, 5});
-    while (!pq.empty())
-    {
-        cout << pq.top().first << " " << pq.top().second << endl;
-        pq.pop();
-    }
-    */
+    int src, des; cin >> src >> des;
+    dijkstra(src);
 
-    for (int i = 0; i < n; i++)
-    {
-        cout << i << "-> " << dis[i] << endl;
-    }
+    if(dis[des] == 999999) cout << "INF" << endl;
+    else cout << dis[des] << endl;
+
+    // for (int i = 0; i < n; i++) // from the source
+    // {
+    //     if(dis[i] == 999999) cout << " --> INF" << endl;
+    //     else cout << i << "-> " << dis[i] << endl;
+    // }
 
     return 0;
 }
