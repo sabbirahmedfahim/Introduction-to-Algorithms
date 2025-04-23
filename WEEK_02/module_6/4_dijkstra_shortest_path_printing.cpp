@@ -20,16 +20,16 @@ sorting by cost.
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 1E4;
-vector<pair<int, int>> v[N]; // Node and weight (cost) pair
-int dis[N]; /* dis == cost */
-// int parent[N]; // track parent node
-void dijkstra(int src) // O(logV(V+E)) -> O(VlogV + ElogV) -> O(VlogV + ElogE)
+vector<pair<int, int>> v[N];
+int dist[N]; /* dist == cost */
+int parent[N]; // track parent node
+void dijkstra(int source) // O(logV(V+E)) -> O(VlogV + ElogV) -> O(VlogV + ElogE)
 {
     /* PUSH {COST, SOURCE}, NOT {source, cost} *** */
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq; // Min-heap by default
-    pq.push({0, src});
-    dis[src] = 0;
-    // parent[src] = -1; // track parent node
+    pq.push({0, source});
+    dist[source] = 0;
+    parent[source] = -1; // track parent node
     while (!pq.empty())
     {
         pair<int, int> par = pq.top();
@@ -40,12 +40,12 @@ void dijkstra(int src) // O(logV(V+E)) -> O(VlogV + ElogV) -> O(VlogV + ElogE)
         {
             int childNode = child.first; // don't confuse, we took input as {node, cost} format
             int childCost = child.second; // don't confuse, we took input as {node, cost} format
-            if (cost + childCost < dis[childNode])
+            if (cost + childCost < dist[childNode])
             {
                 // path relax
-                dis[childNode] = cost + childCost;
-                // parent[childNode] = node; // track parent node
-                pq.push({dis[childNode], childNode}); // {COST, SOURCE}
+                dist[childNode] = cost + childCost;
+                parent[childNode] = node; // track parent node
+                pq.push({dist[childNode], childNode}); // {COST, SOURCE}
             }
         }
     }
@@ -58,26 +58,32 @@ int main()
     {
         int a, b, c; // c => cost
         cin >> a >> b >> c;
-        v[a].push_back({b, c}); // as easy as you think. noting but an adj list
+        v[a].push_back({b, c});
         v[b].push_back({a, c}); // undirected
     }
     
-    memset(dis, 999999, sizeof(dis));
-    // memset(parent, -1, sizeof(parent)); // parent tracking
+    memset(dist, 999999, sizeof(dist));
+    memset(parent, -1, sizeof(parent)); // parent tracking
 
-    int src, des; cin >> src >> des;
-    dijkstra(src);
+    int source, destination; cin >> source >> destination;
+    dijkstra(source);
 
-    if(dis[des] == 999999) cout << "INF" << endl;
-    else cout << dis[des] << endl;
+    int tmp = destination;
+    vector<int> path;
+    while (tmp != -1) 
+    {
+        path.push_back(tmp);
+        tmp = parent[tmp];
+    }
+    
+    if(dist[destination] == 999999)
+    {
+        cout << "Disconnected" << endl;
+    }
+    reverse(path.begin(), path.end());
 
-    // des to 
-
-    // for (int i = 0; i < n; i++) // from the source
-    // {
-    //     if(dis[i] == 999999) cout << " --> INF" << endl;
-    //     else cout << i << "-> " << dis[i] << endl;
-    // }
+    // shortest path
+    for(auto e : path) cout << e << " "; cout << endl;
 
     return 0;
 }

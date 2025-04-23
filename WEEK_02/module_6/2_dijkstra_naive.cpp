@@ -1,10 +1,17 @@
+/*
+Though this is the naive version with O(V * E) complexity, the CODE IS still CORRECT.
+We push the {source, cost} pair into the queue, which is also valid. BUT in the 
+optimized version, we push {cost, source} to ensure proper sorting by cost.
+Anyway, the naive code is okay, okay, and okay :D
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 100;
 // vector<int> v[N];
 vector<pair<int, int>> v[N]; // node, weight(cost) pair
 int dis[N];                  // dis-> distance
-void dijkstra(int src)       // O(V*E) -> bad time complexity in the naive version
+void dijkstra(int src) // O(V*E) -> bad time complexity in the naive version
 {
     queue<pair<int, int>> q;
     q.push({src, 0});
