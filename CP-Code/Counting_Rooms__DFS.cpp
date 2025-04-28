@@ -12,7 +12,6 @@ bool is_valid(int ci, int cj)
         return false;
     return true;
 }
-bool isFound = false;
 void dfs(int si, int sj)
 {
     vis[si][sj] = true;
