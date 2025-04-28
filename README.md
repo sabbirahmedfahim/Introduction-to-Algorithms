@@ -23,13 +23,12 @@
 
 ## 📈 BFS 1D
 - 🔗 [BFS Traversal, Track Parent & Level](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_01/module_2/12_bfs_shortest_path_printing.cpp) **Shortest Path Printing**
-- 🔗 [Time Complexity](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_01/module_2/10_time_complexity_bfs.cpp)
 
 ## ➡️ Direction Array
 - 🔗 [2D Grid Direction Array](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_01/module_3/3_2D_grid.markdown)
 
-## 🌌 DFS on 2D
-- 🔗 [DFS Traversal, is_valid](https://www.hackerrank.com/contests/assignment-01-a-introduction-to-algorithms-a-batch-05/challenges/can-go-1/submissions/code/1384001133)
+## 🌌 DFS on 2D Grid
+- [Problem: Counting Rooms (CSES)](https://cses.fi/problemset/task/1192) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Counting_Rooms.cpp)
 
 ## 🌌 BFS on 2D
 - 🔗 [BFS Traversal, is_valid](https://www.hackerrank.com/contests/assignment-01-a-introduction-to-algorithms-a-batch-05/challenges/can-go-1/submissions/code/1382266645)
