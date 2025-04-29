@@ -25,6 +25,9 @@ void dsu_union_by_size(int node1, int node2)
 {
     int leaderA = dsu_find(node1);
     int leaderB = dsu_find(node2);
+    
+    if(leaderA == leaderB) return; 
+
     if(group_size[leaderA] > group_size[leaderB])
     {
         parent[leaderB] = leaderA;

@@ -25,12 +25,14 @@ void dsu_union(int node1, int node2) // Basic union operation (without size opti
 {
     int leaderA = dsu_find(node1);
     int leaderB = dsu_find(node2);
-    par[leaderA] = leaderB; // A er leader B
+    if(leaderA != leaderB) par[leaderA] = leaderB; // A er leader B
 }
 void dsu_union_by_size(int node1, int node2) // optimized version
 {
     int leaderA = dsu_find(node1); /// Find the leader of node1
     int leaderB = dsu_find(node2); // Find the leader of node2
+
+    if(leaderA == leaderB) return; // *** must 
 
     // Attach the smaller group under the larger group ***
     if (group_size[leaderA] > group_size[leaderB])

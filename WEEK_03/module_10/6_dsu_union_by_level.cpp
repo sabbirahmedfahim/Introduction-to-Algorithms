@@ -27,12 +27,14 @@ void dsu_union(int node1, int node2) // Simple union without optimizations (not 
 {
     int leaderA = dsu_find(node1);
     int leaderB = dsu_find(node2);
-    par[leaderA] = leaderB;
+    if(leaderA != leaderB) par[leaderA] = leaderB;
 }
 void dsu_union_by_level(int node1, int node2) // optimized version ((height of the tree))
 {
     int leaderA = dsu_find(node1);
     int leaderB = dsu_find(node2); 
+
+    if(leaderA == leaderB) return; // *** must
 
     // Compare the levels (heights) of the two leaders
     if(level[leaderA] > level[leaderB]) // level remains same
