@@ -18,19 +18,19 @@
 ## 🗺️ Graph Editor
 - 🔗 [Graph Visual](https://csacademy.com/app/graph_editor)
 
-## 🌲 DFS 1D
+## 🌲 Adjacency-List DFS
 - 🔗 [DFS Traversal, Tracking Parents](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_01/module_3/2_dfs.cpp)
 
-## 📈 BFS 1D
+## 📈 Adjacency-List BFS
 - 🔗 [BFS Traversal, Track Parent & Level](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_01/module_2/12_bfs_shortest_path_printing.cpp) **Shortest Path Printing**
 
 ## ➡️ Direction Array
 - 🔗 [2D Grid Direction Array](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_01/module_3/3_2D_grid.markdown)
 
-## 🌲 DFS on 2D Grid
+## 🌲 DFS on Grid
 - 🔗 [Problem: Counting Rooms (CSES)](https://cses.fi/problemset/task/1192) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Counting_Rooms__DFS.cpp)
 
-## 📈 BFS on 2D Grid
+## 📈 BFS on Grid
 - 🔗 [Problem: Counting Rooms (CSES)](https://cses.fi/problemset/task/1192) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Counting_Rooms__BFS.cpp)
 - 🔗 [Problem: NAKANJ - Minimum Knight Moves (SPOJ)](https://www.spoj.com/problems/NAKANJ/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Minimum_Knight_moves__BFS.cpp) 
 
