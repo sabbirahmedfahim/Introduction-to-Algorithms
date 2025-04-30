@@ -51,10 +51,16 @@
 - 🔗 [Problem: Shortest Routes II (CSES)](https://cses.fi/problemset/task/1672/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Shortest_Routes_II__Floyd_Warshall.cpp) 
 - 🔗 [Is Cycle?](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/8_is_cycle.cpp)
 
-## 🔗🧩 DSU 
+## 🧩 DSU 
 - 🔗 [Cycle Detection](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/1_cycle_detection.cpp)
 - 🔗 [MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/3_minimum_spanning_tree.cpp)
 - 🔗 [Why MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/5_why_mst.markdown)
 
 ## 🔄 Graph Representation Conversions: Lists, Matrices, Edges
 - 🔗 [Full Documentation](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_04/module_12)
+
+## ⚠️ Missing Topics (I should learn/analysis the topics)
+- Dynamic Programming (Basic DP, 0-1 Knapsack and Variations)
+- Unbounded Knapsack and Variations
+- LCS DP and Variations (Longest Common Subsequence)
+- Merge Sort
