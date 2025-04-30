@@ -71,6 +71,8 @@ int main()
 
     for (int i = 1; i <= n; i++)
     {
+        // if(isCycle) continue; // no cycle confirmed
+
         if(dis[i] == inf) cout << 30000 << " "; // this is told is the statement
         else cout << dis[i] << " ";
     }
