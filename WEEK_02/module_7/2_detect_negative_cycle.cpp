@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
+#define ll long long
 using namespace std;
-// keep in mind, there's no valid answer of if a graph has negative cycle
+/*keep in mind, there's no valid answer of if a graph has negative cycle*/ 
 class Edge
 {
 public:
@@ -13,7 +14,8 @@ public:
     }
 };
 const int N = 1e5 + 5;
-int dis[N];
+ll inf = 1E18;
+ll dis[N];
 int main()
 {
     int n, e;
@@ -28,7 +30,7 @@ int main()
     }
     for (int i = 0; i < n; i++)
     {
-        dis[i] = INT_MAX;
+        dis[i] = inf;
     }
     // let's say source is 0, we initialized the source with INT_MAX, doesn't make sense.
     dis[0] = 0; // fixed the source value
@@ -72,5 +74,38 @@ int main()
     // printing edges
     // for(auto ed : edgeList) cout << ed.u << " " << ed.v << " " << ed.c << endl;
 
+    /*
+    int q;
+    cin >> q;
+    while (q--)
+    {
+        ll d;
+        cin >> d;
+        if(cycle) continue;
+        if(dis[d] == inf) cout << "Not Possible" << "\n";
+        else cout << dis[d] << "\n";
+    }
+    */
+
     return 0;
 }
+/*
+Test Case-1
+Input: 
+3 3
+0 1 -1
+1 2 2
+2 0 -3
+Output:
+Cycle found. No valid answer
+
+Test Case-2
+Input: 
+4 4
+0 2 5
+0 3 12
+2 1 2
+1 3 3
+Output: 
+Cycle not found
+*/
