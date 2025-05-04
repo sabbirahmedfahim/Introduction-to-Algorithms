@@ -29,6 +29,3 @@
 ### Bellman Ford Algorithm
 **Bellman Ford Algorithm**: 
    Unlike Dijkstra's algorithm, Bellman-Ford works for graphs with negative weights and is **capable of detecting and handling negative weight cycles.**
-
----
-- [for all-pairs shortest path algorithm](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/3_why_floyd_warshall.markdown)
