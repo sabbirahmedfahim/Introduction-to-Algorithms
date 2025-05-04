@@ -11,6 +11,9 @@
 | **Floyd-Warshall**     | ❌ (Not used for single-source) | All-pairs shortest path           | ✅ (No neg. cycles)          | ✅ (all pairs)              | Not for single source; see all-pairs version             |
 
 ---
+### DSF Algorithm
+**DFS** is **not a shortest path algorithm**
+---
 ### BSF Algorithm
 **BFS**: Complexity O(N + E). BFS only works for unweighted graphs.
    
