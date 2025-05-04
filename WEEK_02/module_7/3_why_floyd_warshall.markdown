@@ -11,4 +11,4 @@ That's why the **Floyd-Warshall algorithm** is used for the **all-pairs shortest
 
 ---
 
-- [Single Source Shortest Path Algorithms](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/0_why_bellman_ford_algorithm.markdown)
+- [for Single Source Shortest Path Algorithms](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/0_why_bellman_ford_algorithm.markdown)
