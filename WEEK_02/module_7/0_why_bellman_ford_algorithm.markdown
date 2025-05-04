@@ -1,8 +1,18 @@
 ## Shortest Path Algorithms Recap
+---
+✅ **Time Complexity & Use-Case Comparison for Single Source Algorithms**
+
+| **Algorithm**         | **Time Complexity**     | **Graph Type**                           | **Supports Negative Weights?** | **Returns Shortest Path?** | **Use Case**                                             |
+|------------------------|--------------------------|-------------------------------------------|-------------------------------|-----------------------------|----------------------------------------------------------|
+| **DFS**                | O(N + E)                 | Any (but not suitable for shortest paths) | ❌                            | ❌                          | Graph traversal, cycle detection, component search       |
+| **BFS**                | O(N + E)                 | Unweighted graphs                         | ❌                            | ✅                          | Shortest path when all edge weights = 1                  |
+| **Dijkstra (Min Heap)**| O((N + E) logN)          | Weighted, non-negative                    | ❌                            | ✅                          | Efficient for positive weights, sparse graphs            |
+| **Bellman-Ford**       | O(N * E)                 | Weighted (positive + negative)            | ✅                            | ✅                          | Handles negative weights, detects negative cycles        |
+| **Floyd-Warshall**     | ❌ (Not used for single-source) | All-pairs shortest path           | ✅ (No neg. cycles)          | ✅ (all pairs)              | Not for single source; see all-pairs version             |
 
 ---
 ### BSF Algorithm
-**BFS**: Complexity O(V + E). BFS only works for unweighted graphs.
+**BFS**: Complexity O(N + E). BFS only works for unweighted graphs.
    
 ---
 ### Dijkstra Algorithm
