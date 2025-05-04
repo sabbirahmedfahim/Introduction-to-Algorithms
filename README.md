@@ -18,6 +18,10 @@
 ## 🗺️ Graph Editor
 - 🔗 [Graph Visual](https://csacademy.com/app/graph_editor)
 
+## ❓ When to Use Which Shortest Path Algorithm
+- 🔗 [Single Source](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/0_why_bellman_ford_algorithm.markdown)
+- 🔗 [All-Pairs](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/3_why_floyd_warshall.markdown)
+
 ## 🌲 Adjacency-List DFS
 - 🔗 [DFS Traversal, Tracking Parents](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_01/module_3/2_dfs.cpp)
 
