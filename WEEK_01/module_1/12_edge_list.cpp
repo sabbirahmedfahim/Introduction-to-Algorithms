@@ -4,28 +4,48 @@ using namespace std;
 int main()
 {
     int n, e; cin >> n >> e;
-    // pair<int, int> a[e];
-    vector<pair<int, int>> v; // every index of vector has pair of two int
+    vector<pair<int, int>> edges;
     while (e--)
     {
-        int a, b; cin >> a >> b;
-        // v.push_back(make_pair(a, b)); // accurate
-        v.push_back({a, b});  // shortcut
+        int u, v; cin >> u >> v;
+        edges.push_back({u, v}); 
     }
     
-    for (int i = 0; i < v.size(); i++)
+    for (int i = 0; i < edges.size(); i++)
     {
-        cout << v[i].first << " " << v[i].second << endl;
+        cout << edges[i].first << " " << edges[i].second << endl;
     }
-    cout << endl;
 
-    // range based for loop
-    for(pair<int, int> p : v) cout << p.first << " " << p.second << endl;
     cout << endl;
     
     // use auto. don't worry, I know you are not auto pass :D
-    for(auto p : v) cout << p.first << " " << p.second << endl;
+    for(auto edge : edges) cout << edge.first << " " << edge.second << endl;
     
-
     return 0;
 }
+/*
+Input: 
+6 6
+0 1
+1 5
+0 4
+0 3
+3 4
+2 4
+
+Expected Output: 
+0 1
+1 5
+0 4
+0 3
+3 4
+2 4
+
+0 1
+1 5
+0 4
+0 3
+3 4
+2 4
+
+*/

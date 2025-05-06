@@ -11,9 +11,9 @@ int main()
    
     while (e--)
     {
-        int a, b; cin >> a >> b;
-        matrx[a][b] = 1;
-        matrx[b][a] = 1; // In a directed graph, this line would not be written. #YouKHowWhy
+        int u, v; cin >> u >> v;
+        matrx[u][v] = 1;
+        matrx[v][u] = 1; // for undirected graph
     }
     for (int i = 0; i < n; i++)
     {
@@ -24,7 +24,23 @@ int main()
         cout << endl;
     }
     
-
-
     return 0;
 }
+/*
+Input:
+6 6
+0 1
+1 5
+0 4
+0 3
+3 4
+2 4
+
+Expected Output: 
+0 1 0 1 1 0 
+1 0 0 0 0 1 
+0 0 0 0 1 0 
+1 0 0 0 1 0 
+1 0 1 1 0 0 
+0 1 0 0 0 0 
+*/

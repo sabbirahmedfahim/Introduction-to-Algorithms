@@ -18,3 +18,17 @@ int main()
 
     return 0;
 }
+/*
+Input: 
+6 6
+0 1
+1 5
+0 4
+0 3
+3 4
+2 4
+
+Expected Output:
+connected
+
+*/
