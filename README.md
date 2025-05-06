@@ -47,7 +47,7 @@ This repository contains my personal collection of algorithm codes along with so
 - 🔗 [Directed Graph, Using DFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/4_cycle_detect_in_directed_graph.cpp)
 
 ## 🚀 Dijkstra
-- 🔗 [Dijkstra Optimized](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_6/4_dijkstra_shortest_path_printing.cpp) **Shortest Path Printing**
+- 🔗 [Problem: C. Dijkstra? (CF)](https://codeforces.com/contest/20/problem/C) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/C_Dijkstra__CF.cpp) **Shortest Path Printing**
 - 🔗 [Problem: Shortest Routes I (CSES)](https://cses.fi/problemset/task/1671/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Shortest_Routes_I__Dijkstra.cpp) **Don't forget to use INF = 1E18**
 
 ## 🔔 Bellman-Ford Algorithm
