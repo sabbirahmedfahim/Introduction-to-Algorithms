@@ -1,11 +1,8 @@
-# Data Structures
-## 📈 Binary Search
-- 🔗 [Basic Implementation](https://github.com/sabbirahmedfahim/Basic-Data-Structures/blob/main/WEEK_01/module_3/Binary%20Search/Z_Binary_Search.cpp)
+#### 📖 Algorithms & Data Structures Quick Reference
 
-## 🔄 Prefix Sum
-- 🔗 [Basic Implementation](https://github.com/sabbirahmedfahim/Basic-Data-Structures/blob/main/WEEK_01/module_3/Prefix%20Sum/Y_Range_sum_query.cpp)
-- 🔗 [Prefix & Suffix](https://github.com/sabbirahmedfahim/Basic-Data-Structures/blob/main/WEEK_01/week01_day02/equilibrium_index.cpp)
----
+This repository contains my personal collection of algorithm codes along with some basic ideas or notes related to each. It serves as a quick reference for what I’ve learned and implemented so far.
+
+⚠️ Note: I strongly believe it's important to first build a clear understanding of each topic through tutorials or foundational study. Once that's done, reading and understanding the code becomes much easier. I've included a few brief instructions or notes in the README where relevant.
 
 📁 [STL Handbook](https://github.com/sabbirahmedfahim/DSA-CheatSheet/blob/main/STL.markdown)  
 📁 [XPSC](https://github.com/sabbirahmedfahim/XPSC)
@@ -17,6 +14,10 @@
 
 ## 🗺️ Graph Editor
 - 🔗 [Graph Visual](https://csacademy.com/app/graph_editor)
+
+## 🔄 Graph Representations: Implementations & Conversions
+- 🔗 [Core implementations (adjacency list, adjacency matrix, edge list)](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_01/module_1)
+- 🔗 [Conversions between these representations](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_04/module_12)
 
 ## ❓ When to Use Which Shortest Path Algorithm
 - 🔗 [Single Source](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/0_why_bellman_ford_algorithm.markdown)
@@ -60,11 +61,19 @@
 - 🔗 [MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/3_minimum_spanning_tree.cpp)
 - 🔗 [Why MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/5_why_mst.markdown)
 
-## 🔄 Graph Representation Conversions: Lists, Matrices, Edges
-- 🔗 [Full Documentation](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_04/module_12)
-
 ## ⚠️ Missing Topics (I should learn/analysis the topics)
 - Dynamic Programming (Basic DP, 0-1 Knapsack and Variations)
 - Unbounded Knapsack and Variations
 - LCS DP and Variations (Longest Common Subsequence)
 - Merge Sort
+
+---
+
+<br>
+
+
+# Data Structures
+
+## 🔄 Prefix Sum
+- 🔗 [Prefix & Suffix](https://github.com/sabbirahmedfahim/Basic-Data-Structures/blob/main/WEEK_01/week01_day02/equilibrium_index.cpp)
+---
