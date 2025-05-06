@@ -28,13 +28,14 @@ This repository contains my personal collection of algorithm codes along with so
 
 ## 📈 Adjacency-List BFS
 - 🔗 [BFS Traversal, Track Parent & Level](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_01/module_2/12_bfs_shortest_path_printing.cpp) **Shortest Path Printing**
-- 🔗 [Problem: BFS of graph (GFG)](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/bfs_of_graph_gfg.cpp)
+- 🔗 [Problem: BFS of graph (GFG)](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/bfs_of_graph__gfg.cpp)
 
 ## ➡️ Direction Array
 - 🔗 [2D Grid Direction Array](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_01/module_3/3_2D_grid.markdown)
 
 ## 🌲 DFS on Grid
 - 🔗 [Problem: Counting Rooms (CSES)](https://cses.fi/problemset/task/1192) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Counting_Rooms__DFS.cpp)
+- 🔗 [Problem: Number of Closed Islands (LeetCode)](https://leetcode.com/problems/number-of-closed-islands/description/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Number_of_Closed_Islands__LeetCode.cpp)
 
 ## 📈 BFS on Grid
 - 🔗 [Problem: Counting Rooms (CSES)](https://cses.fi/problemset/task/1192) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Counting_Rooms__BFS.cpp)
