@@ -28,6 +28,7 @@ This repository contains my personal collection of algorithm codes along with so
 
 ## 📈 Adjacency-List BFS
 - 🔗 [BFS Traversal, Track Parent & Level](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_01/module_2/12_bfs_shortest_path_printing.cpp) **Shortest Path Printing**
+- 🔗 [Problem: BFS of graph (GFG)](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/bfs_of_graph_gfg.cpp)
 
 ## ➡️ Direction Array
 - 🔗 [2D Grid Direction Array](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_01/module_3/3_2D_grid.markdown)
