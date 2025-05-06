@@ -16,7 +16,7 @@ This repository contains my personal collection of algorithm codes along with so
 - 🔗 [Graph Visual](https://csacademy.com/app/graph_editor)
 
 ## 🔄 Graph Representations: Implementations & Conversions
-- 🔗 [Core implementations (adjacency list, adjacency matrix, edge list)](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_01/module_1)
+- 🔗 [Implementations (adjacency matrix, adjacency list, edge list)](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_01/module_1)
 - 🔗 [Conversions between these representations](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_04/module_12)
 
 ## ❓ When to Use Which Shortest Path Algorithm
