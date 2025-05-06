@@ -17,7 +17,7 @@ This repository contains my personal collection of algorithm codes along with so
 
 ## 🔄 Graph Representations: Implementations & Conversions
 - 🔗 [Implementations (adjacency matrix, adjacency list, edge list)](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_01#readme)
-- 🔗 [Conversions between these representations](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_04/module_12)
+- 🔗 [Conversions between these representations](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_04)
 
 ## ❓ When to Use Which Shortest Path Algorithm
 - 🔗 [Single Source](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/0_why_bellman_ford_algorithm.markdown)
