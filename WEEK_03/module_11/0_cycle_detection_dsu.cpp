@@ -56,3 +56,26 @@ int main()
 
     return 0;
 }
+/*
+Input:
+6 6
+0 1
+0 2
+0 3
+3 4
+3 5
+4 5
+
+Expected Output:
+Cycle detected !
+
+Input: 
+4 3
+0 1
+0 2
+0 3
+
+Expected Output:
+Cycle not found
+
+*/

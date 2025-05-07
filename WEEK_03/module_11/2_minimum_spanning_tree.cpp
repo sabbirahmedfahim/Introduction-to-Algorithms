@@ -1,12 +1,11 @@
 #include <bits/stdc++.h> 
-#define ll long long int 
-#define ull unsigned long long int
+#define ll long long
 #define nl '\n'
 using namespace std;
-// ################################################# copy-paste DSU cycle detection 
+/* DSU cycle detection  ___start */
 const int N = 1e5 + 5;
 int parent[N];
-int group_size[N]; // using DSU union by size. i can also detect cycle using union by rank
+int group_size[N]; // using DSU union by size. however, i can also detect cycle using union by rank
 void dsu_initialize(int n)
 {
     for (int i = 0; i < n; i++)
@@ -29,17 +28,16 @@ void dsu_union_by_size(int node1, int node2)
     if(group_size[leaderA] > group_size[leaderB])
     {
         parent[leaderB] = leaderA;
-        group_size[leaderA]+=group_size[leaderB]; // do not forget to increase the size
+        group_size[leaderA] += group_size[leaderB]; 
     }
     else
     {
         parent[leaderA] = leaderB;
-        // group_size[leaderA]+=group_size[leaderB]; // WRONG
-        group_size[leaderB]+=group_size[leaderA];
+        group_size[leaderB] += group_size[leaderA];
     } 
 }
-// ################################################# copy-paste done
-// mst -> Minimum Spanning Tree
+/* DSU cycle detection ___end */
+
 class Edge
 {
 public:
@@ -77,10 +75,25 @@ int main()
         else
         {
             dsu_union_by_size(ed.u, ed.v);
-            totalCost+=ed.w;
+            totalCost += ed.w;
         } 
     }
     cout << totalCost;
 
     return 0;
 }
+/*
+Input:
+5 7
+0 1 2
+0 2 3
+0 3 3
+3 4 6
+2 4 4
+2 1 7
+1 4 5
+
+Expected Output:
+12
+
+*/
