@@ -60,10 +60,10 @@ This repository contains my personal collection of algorithm codes along with so
 - 🔗 [Problem: Shortest Routes II (CSES)](https://cses.fi/problemset/task/1672/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Shortest_Routes_II__Floyd_Warshall.cpp) 
 - 🔗 [Is Cycle?](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/8_is_cycle.cpp)
 
-## 🧩 DSU 
-- 🔗 [Cycle Detection](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/1_cycle_detection.cpp)
-- 🔗 [MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/3_minimum_spanning_tree.cpp)
-- 🔗 [Why MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/5_why_mst.markdown)
+## 🧩  Minimum Spanning Tree (MST)
+- 🔗 [DSU, Kruskals - all you need to know](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_03/module_11#readme)
+-  🔗 [Cycle Detection](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/1_cycle_detection.cpp) will update
+- 🔗 [MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/3_minimum_spanning_tree.cpp) will update + add codes from oj
 
 ## 🔝 Topological Sort (DAG Linear Ordering)  
 - 🔗 [Problem: Course Schedule (CSES)](https://cses.fi/problemset/task/1679/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Course_Schedule__Topological_Sort.cpp) 
