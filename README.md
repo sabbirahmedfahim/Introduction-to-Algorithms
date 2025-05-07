@@ -4,9 +4,7 @@ This repository contains my personal collection of algorithm codes along with so
 
 ⚠️ Note: I strongly believe it's important to first build a clear understanding of each topic through tutorials or foundational study. Once that's done, reading and understanding the code becomes much easier. I've included a few brief instructions or notes in the README where relevant.
 
-📁 [CP Handbook](https://cses.fi/book.pdf)  
-📁 [CP-31 Sheet](https://www.tle-eliminators.com/)  
-📁 [Code Library](https://github.com/ShahjalalShohag/code-library)
+📁 [CP Handbook](https://cses.fi/book.pdf)   📁 [CP-31 Sheet](https://www.tle-eliminators.com/)   📁 [Code Library](https://github.com/ShahjalalShohag/code-library)
 
 ---
 <br>
@@ -63,7 +61,8 @@ This repository contains my personal collection of algorithm codes along with so
 ## 🧩  Minimum Spanning Tree (MST)
 - 🔗 [DSU, Kruskals - all you need to know](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_03/module_11#readme)
 -  🔗 [Cycle Detection](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/1_cycle_detection.cpp) will update
-- 🔗 [MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/3_minimum_spanning_tree.cpp) will update + add codes from oj
+- 🔗 [MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/3_minimum_spanning_tree.cpp) will update
+- 🔗 [Why MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/5_why_mst.markdown) wil update and add oj statement
 
 ## 🔝 Topological Sort (DAG Linear Ordering)  
 - 🔗 [Problem: Course Schedule (CSES)](https://cses.fi/problemset/task/1679/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Course_Schedule__Topological_Sort.cpp) 
