@@ -4,8 +4,8 @@ This repository contains my personal collection of algorithm codes along with so
 
 ⚠️ Note: I strongly believe it's important to first build a clear understanding of each topic through tutorials or foundational study. Once that's done, reading and understanding the code becomes much easier. I've included a few brief instructions or notes in the README where relevant.
 
-📁 [STL Handbook](https://github.com/sabbirahmedfahim/DSA-CheatSheet/blob/main/STL.markdown)  
-📁 [XPSC](https://github.com/sabbirahmedfahim/XPSC)
+📁 [CP Handbook](https://cses.fi/book.pdf)  
+📁 [CP Implementations](https://github.com/sabbirahmedfahim/XPSC)
 
 ---
 <br>
