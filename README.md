@@ -6,7 +6,7 @@ This repository contains my personal collection of algorithm codes along with so
 
 📁 [CP Handbook](https://cses.fi/book.pdf)  
 📁 [CP-31 Sheet](https://www.tle-eliminators.com/)  
-📁 [CP Codes](https://github.com/sabbirahmedfahim/XPSC)
+📁 [Code Library](https://github.com/ShahjalalShohag/code-library)
 
 ---
 <br>
