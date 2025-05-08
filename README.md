@@ -53,7 +53,7 @@ This repository contains my personal collection of algorithm codes along with so
 
 ## 🔔 Bellman-Ford Algorithm
 - 🔗 [Problem: Ford-Bellman (Basecamp)](https://basecamp.eolymp.com/en/problems/1453) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Ford_Bellman__Bellman_Ford.cpp) 
-- 🔗 [Is Cycle?](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/2_detect_negative_cycle.cpp)
+- 🔗 [Negative Cycle Detection](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/2_detect_negative_cycle.cpp)
 
 ## 🛤️ Floyd-Warshall Algorithm (All Pair Shortest Path)
 - 🔗 [Problem: Shortest Routes II (CSES)](https://cses.fi/problemset/task/1672/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Shortest_Routes_II__Floyd_Warshall.cpp) 
