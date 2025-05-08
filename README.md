@@ -42,7 +42,7 @@ This repository contains my personal collection of algorithm codes along with so
 - 🔗 [Problem: Counting Rooms (CSES)](https://cses.fi/problemset/task/1192) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Counting_Rooms__BFS.cpp)
 - 🔗 [Problem: NAKANJ - Minimum Knight Moves (SPOJ)](https://www.spoj.com/problems/NAKANJ/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Minimum_Knight_moves__BFS.cpp) 
 
-## 🔄 Cycle Detect
+## 🔄 Cycle Detect (for unweighted graph)
 - 🔗 [Using BFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/1_cycle_detect_using_bfs.cpp)
 - 🔗 [Using DFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/2_cycle_detect_using_dfs.cpp)
 - 🔗 [Directed Graph, Using DFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/4_cycle_detect_in_directed_graph.cpp)
