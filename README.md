@@ -9,7 +9,7 @@ This repository contains my personal collection of algorithm codes along with so
 ---
 <br>
 
-# Algorithms
+# Graph Algorithms
 
 ## 🗺️ Graph Editor
 - 🔗 [Graph Visual](https://csacademy.com/app/graph_editor)
@@ -71,19 +71,19 @@ This repository contains my personal collection of algorithm codes along with so
 - 🔗 [Problem: Course Schedule (CSES)](https://cses.fi/problemset/task/1679/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Course_Schedule__Topological_Sort.cpp) 
 - 🔗 [Problem: TOPOSORT - Topological Sorting (SPOJ)](https://cses.fi/problemset/task/1671/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Topological_Sorting__SPOJ.cpp) 
 
-## ⚠️ Missing Topics (I should learn/analysis the topics)
-- Dynamic Programming (Basic DP, 0-1 Knapsack and Variations)
-- Unbounded Knapsack and Variations
-- LCS DP and Variations (Longest Common Subsequence)
-- Merge Sort
-
 ---
 
 <br>
 
 
-# Data Structures
+# Algorithms
 
 ## 🔄 Prefix Sum
 - 🔗 [Prefix & Suffix](https://github.com/sabbirahmedfahim/Basic-Data-Structures/blob/main/WEEK_01/week01_day02/equilibrium_index.cpp)
+
+## ⚠️ Missing Topics (I should learn/analysis the topics)
+- Dynamic Programming (Basic DP, 0-1 Knapsack and Variations)
+- Unbounded Knapsack and Variations
+- LCS DP and Variations (Longest Common Subsequence)
+- Merge Sort
 ---
