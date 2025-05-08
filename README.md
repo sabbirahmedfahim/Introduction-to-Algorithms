@@ -42,10 +42,12 @@ This repository contains my personal collection of algorithm codes along with so
 - 🔗 [Problem: Counting Rooms (CSES)](https://cses.fi/problemset/task/1192) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Counting_Rooms__BFS.cpp)
 - 🔗 [Problem: NAKANJ - Minimum Knight Moves (SPOJ)](https://www.spoj.com/problems/NAKANJ/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Minimum_Knight_moves__BFS.cpp) 
 
-## 🔄 Cycle Detect (for unweighted graph)
-- 🔗 [Using BFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/1_cycle_detect_using_bfs.cpp)
-- 🔗 [Using DFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/2_cycle_detect_using_dfs.cpp)
-- 🔗 [Directed Graph, Using DFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/4_cycle_detect_in_directed_graph.cpp)
+## 🔄 Cycle Detect 
+- 🔗 [Unweighted, Using BFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/1_cycle_detect_using_bfs.cpp)
+- 🔗 [Unweighted, Using DFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/2_cycle_detect_using_dfs.cpp)
+- 🔗 [Unweighted, Directed Graph, Using DFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/4_cycle_detect_in_directed_graph.cpp)
+- 🔗 [Weighted, Bellman Ford Negative Cycle Detection](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/2_detect_negative_cycle.cpp)
+- 🔗 [Weighted, Floyd Warshall Negative Cycle Detection](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/8_is_cycle.cpp)
 
 ## 🚀 Dijkstra
 - 🔗 [Problem: C. Dijkstra? (CF)](https://codeforces.com/contest/20/problem/C) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/C_Dijkstra__CF.cpp) **Shortest Path Printing**
@@ -53,7 +55,7 @@ This repository contains my personal collection of algorithm codes along with so
 
 ## 🔔 Bellman-Ford Algorithm
 - 🔗 [Problem: Ford-Bellman (Basecamp)](https://basecamp.eolymp.com/en/problems/1453) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Ford_Bellman__Bellman_Ford.cpp) 
-- 🔗 [Negative Cycle Detection](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/2_detect_negative_cycle.cpp)
+- 🔗 [Is Cycle?](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/2_detect_negative_cycle.cpp)
 
 ## 🛤️ Floyd-Warshall Algorithm (All Pair Shortest Path)
 - 🔗 [Problem: Shortest Routes II (CSES)](https://cses.fi/problemset/task/1672/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Shortest_Routes_II__Floyd_Warshall.cpp) 
