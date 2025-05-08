@@ -59,3 +59,4 @@ int main()
 
     return 0;
 }
+// https://cses.fi/problemset/task/1672/
