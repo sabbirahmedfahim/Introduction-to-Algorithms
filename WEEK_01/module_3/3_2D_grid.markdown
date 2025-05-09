@@ -1,16 +1,30 @@
-A 2D grid, represented as a 2D matrix, can be traversed using BFS (Breadth-First Search) or DFS (Depth-First Search), similar to how we traverse graphs. Each cell in the grid can be considered a node, and the edges connect neighboring cells (usually the cells to the left, right, top, and bottom).
-
-| Direction     | i    | j    | Changes |
-|---------------|------|------|---------|
-| src -> right  | i    | j+1  |  0, 1   |
-| src -> left   | i    | j-1  |  0, -1  |
-| src -> top    | i-1  | j    | -1, 0   |
-| src -> bottom | i+1  | j    |  1, 0   |
------------------------------------------
-
-**Column Change**: right, left  
-**Row Change**: top, bottom
+# 2D Grid Traversal using BFS and DFS
 
 
-right, left => column change
-top, bottom => row    change
+## Standard 4-Directional Moves
+
+| Direction | Coordinate Change | Change (i, j) |
+|-----------|-------------------|---------------|
+| Right     | Column +1         | (0, +1)       |
+| Left      | Column -1         | (0, -1)       |
+| Top       | Row -1            | (-1, 0)       |
+| Bottom    | Row +1            | (+1, 0)       |
+
+- **Column changes**: Right (+1), Left (-1)
+- **Row changes**: Top (-1), Bottom (+1)
+
+---
+
+## Knight Moves (8-Directional)
+
+![Knight Moves Diagram](image-2.png)
+
+Possible L-shaped moves in chess:
+
+```cpp
+vector<pair<int, int>> knightMoves = {
+    {2, 1}, {2, -1},   // Right movements
+    {-2, 1}, {-2, -1},  // Left movements
+    {1, 2}, {1, -2},    // Down movements
+    {-1, 2}, {-1, -2}   // Up movements
+};
