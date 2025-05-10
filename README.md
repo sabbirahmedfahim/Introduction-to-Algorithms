@@ -1,10 +1,9 @@
 #### 📖 Algorithms & Data Structures Quick Reference
 
-This repository contains my personal collection of algorithm codes along with some basic ideas or notes related to each. It serves as a quick reference for what I've learned and implemented so far.
+This repository contains my personal collection of algorithm codes along with brief notes or core ideas related to each topic. It serves as a quick reference to what I’ve learned and implemented so far.
 
-⚠️ Note: I strongly believe it's important to first build a clear understanding of each topic through tutorials or foundational study. Once that's done, reading and understanding the code becomes much easier. I've included a few brief instructions or notes in the README where relevant.
-
-📁 [CP Handbook](https://cses.fi/book.pdf)   📁 [CP-31 Sheet](https://www.tle-eliminators.com/)   📁 [Code Library](https://github.com/ShahjalalShohag/code-library)
+🔒 Theory Reference: [phitron-book](https://phitron.io/phitron-book/introduction-to-algorithms-01)  
+*(Private access required - my theory companion for the algorithm concepts)*  
 
 ---
 <br>
