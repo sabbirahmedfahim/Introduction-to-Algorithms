@@ -79,7 +79,7 @@ DFS-based topo sort and BFS with a queue (Kahn’s algorithm) both detect cycles
 - 🔗 [Kahn’s algorithm (BFS) concept](https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/)
   
 - 🔗 [Problem: Course Schedule (CSES)](https://cses.fi/problemset/task/1679/) | [Queue Version](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Course_Schedule___Topological_Sort_Queue_CSES.cpp) | [Priority Queue Version](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Course_Schedule___Topological_Sort_PriorityQueue_CSES.cpp) | [DFS Version](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Course_Schedule___Topological_Sort_DFS_Stack_CSES.cpp)
-- 🔗 [Problem: TOPOSORT - Topological Sorting (SPOJ)](https://cses.fi/problemset/task/1671/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Topological_Sorting__SPOJ.cpp)
+- 🔗 [Problem: TOPOSORT - Topological Sorting (SPOJ)](https://www.spoj.com/problems/TOPOSORT/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Topological_Sorting__SPOJ.cpp)
 
 ---
 
