@@ -68,7 +68,16 @@ This repository contains my personal collection of algorithm codes along with br
 - 🔗 [Why MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/5_why_mst.markdown) wil update and add oj statement
 
 ## 🔝 Topological Sorting Algorithms  (DAG)
-- 🔗 [Kahn’s algorithm(BFS)...](https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/)
+
+<details>
+<summary><strong>🟢 When to use which topsort</strong></summary>
+
+DFS-based topo sort and BFS (Kahn’s algorithm) both detect cycles in DAGs while generating topological order, and BFS with a priority queue does the same but gives the **lexicographically smallest** order.
+
+</details>
+
+- 🔗 [Kahn’s algorithm (BFS) concept](https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/)
+  
 - 🔗 [Problem: Course Schedule (CSES)](https://cses.fi/problemset/task/1679/) | [Queue Version](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Course_Schedule___Topological_Sort_Queue_CSES.cpp) | [Priority Queue Version](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Course_Schedule___Topological_Sort_PriorityQueue_CSES.cpp) | [DFS Version](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Course_Schedule___Topological_Sort_DFS_Stack_CSES.cpp)
 - 🔗 [Problem: TOPOSORT - Topological Sorting (SPOJ)](https://cses.fi/problemset/task/1671/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Topological_Sorting__SPOJ.cpp)
 
