@@ -1,4 +1,4 @@
-#### 📖 Algorithms & Data Structures Quick Reference
+#### 📖 Algorithms Quick Reference
 
 This repository contains my personal collection of algorithm codes along with brief notes or core ideas related to each topic. It serves as a quick reference to what I’ve learned and implemented so far.
 
@@ -67,9 +67,10 @@ This repository contains my personal collection of algorithm codes along with br
 - 🔗 [MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/3_minimum_spanning_tree.cpp) will update
 - 🔗 [Why MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/5_why_mst.markdown) wil update and add oj statement
 
-## 🔝 Topological Sorting Algorithms  
-- 🔗 [Problem: Course Schedule (CSES)](https://cses.fi/problemset/task/1679/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Course_Schedule__Topological_Sort.cpp) 
-- 🔗 [Problem: TOPOSORT - Topological Sorting (SPOJ)](https://cses.fi/problemset/task/1671/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Topological_Sorting__SPOJ.cpp) 
+## 🔝 Topological Sorting Algorithms  (DAG)
+- 🔗 [Kahn’s algorithm(BFS)...](https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/)
+- 🔗 [Problem: Course Schedule (CSES)](https://cses.fi/problemset/task/1679/) | [Queue Version](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Course_Schedule___Topological_Sort_Queue_CSES.cpp) | [Priority Queue Version](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Course_Schedule___Topological_Sort_PriorityQueue_CSES.cpp) | [DFS Version](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Course_Schedule___Topological_Sort_DFS_Stack_CSES.cpp)
+- 🔗 [Problem: TOPOSORT - Topological Sorting (SPOJ)](https://cses.fi/problemset/task/1671/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Topological_Sorting__SPOJ.cpp)
 
 ---
 
