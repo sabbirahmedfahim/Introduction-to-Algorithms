@@ -72,7 +72,7 @@ This repository contains my personal collection of algorithm codes along with br
 <details>
 <summary><strong>🟢 When to use which topsort</strong></summary>
 
-DFS-based topo sort and BFS (Kahn’s algorithm) both detect cycles in DAGs while generating topological order, and BFS with a priority queue does the same but gives the **lexicographically smallest** order.
+DFS-based topo sort and BFS with a queue (Kahn’s algorithm) both detect cycles in DAGs while generating topological order, and BFS with a priority queue does the same but gives the **lexicographically smallest** order.
 
 </details>
 
