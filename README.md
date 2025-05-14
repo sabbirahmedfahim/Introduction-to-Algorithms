@@ -14,8 +14,8 @@ This repository contains my personal collection of algorithm codes along with br
 - 🔗 [Graph Visual](https://csacademy.com/app/graph_editor)
 
 ## 🔄 Graph Representation Methods
-- 🔗 [Implementations (adjacency matrix, adjacency list, edge list)](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_01#readme)
-- 🔗 [Conversions between representations](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_04)
+- 🔗 [Implementations (adjacency matrix, adjacency list, edge list)](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_01/README.md)
+- 🔗 [Conversions between representations](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_04/README.md)
 
 ## ❓ When to Use Which Shortest Path Algorithm
 - 🔗 [Single Source](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/0_why_bellman_ford_algorithm.markdown)
@@ -62,7 +62,7 @@ This repository contains my personal collection of algorithm codes along with br
 - 🔗 [Is Cycle?](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/8_is_cycle.cpp)
 
 ## 🧩 Minimum Spanning Tree Algorithms
-- 🔗 [DSU, Kruskals - all you need to know](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_03/module_11#readme)
+- 🔗 [DSU, Kruskals - all you need to know](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/README.md)
 - 🔗 [Problem: Building Roads (CSES)](https://cses.fi/problemset/task/1666/) | [DSU Union by Size](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Building_Roads__DSU_Union_By_Size.cpp) | [DSU Union by Rank](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Building_Roads__DSU_Union_By_Rank.cpp)
 - 🔗 [MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/3_minimum_spanning_tree.cpp) will update
 - 🔗 [Why MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/5_why_mst.markdown) wil update and add oj statement
