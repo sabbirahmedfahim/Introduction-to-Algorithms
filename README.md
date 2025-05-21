@@ -3,7 +3,7 @@
 This repository contains my personal collection of algorithm codes along with brief notes or core ideas related to each topic. It serves as a quick reference to what I’ve learned and implemented so far.
 
 🔒 Theory Reference: [phitron-book](https://phitron.io/phitron-book/introduction-to-algorithms-01)  
-*(Private access required - my theory companion for the algorithm concepts)*  
+*(Private access required)*  
 
 ---
 <br>
@@ -64,8 +64,6 @@ This repository contains my personal collection of algorithm codes along with br
 ## 🧩 Minimum Spanning Tree Algorithms
 - 🔗 [DSU, Kruskals - all you need to know](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/README.md)
 - 🔗 [Problem: Building Roads (CSES)](https://cses.fi/problemset/task/1666/) | [DSU Union by Size](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Building_Roads__DSU_Union_By_Size.cpp) | [DSU Union by Rank](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Building_Roads__DSU_Union_By_Rank.cpp)
-- 🔗 [MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/3_minimum_spanning_tree.cpp) will update
-- 🔗 [Why MST](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/5_why_mst.markdown) wil update and add oj statement
 
 ## 🔝 Topological Sorting Algorithms  (DAG)
 
