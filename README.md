@@ -62,7 +62,7 @@ This repository contains my personal collection of algorithm codes along with br
 - 🔗 [Is Cycle?](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/8_is_cycle.cpp)
 
 ## 🧩 Minimum Spanning Tree Algorithms
-- 🔗 [DSU, Kruskals - all you need to know](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/README.md)
+- 🔗 [DSU, Kruskals - all you need to know](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/README.md) | [MST Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_03/module_11/2_minimum_spanning_tree.cpp)
 - 🔗 [Problem: Building Roads (CSES)](https://cses.fi/problemset/task/1666/) | [DSU Union by Size](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Building_Roads__DSU_Union_By_Size.cpp) | [DSU Union by Rank](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Building_Roads__DSU_Union_By_Rank.cpp)
 
 ## 🔝 Topological Sorting Algorithms  (DAG)
