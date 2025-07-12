@@ -101,7 +101,7 @@ DFS-based topo sort and BFS with a queue (Kahn’s algorithm) both detect cycles
 
 # Merge Sort
 
-## 🔒 Merge Sort Concept [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01/মডিউল-১৭ঃ-বেসিক-ডাইনামিক-প্রোগামিং)
+## 🔒 Merge Sort Concept [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01/বোনাস-মডিউল-২৩ঃ-merge-sort)
 
 ## Implementation
 - 🔗 [Merge](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_06/module_22/0_merge.cpp)
