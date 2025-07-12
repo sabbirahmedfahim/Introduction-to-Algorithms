@@ -15,3 +15,18 @@ Both approaches stem from the same concept. The core idea is the recursive proce
 
 #### ✅ Recursive Tree With Memoization:
 ![Recursive Tree with Memoization](dp-with-memoization.png)
+
+---
+
+### Fibonacci Sequence
+
+The Fibonacci sequence is:
+0, 1, 1, 2, 3, 5, 8, 13, 21, …
+
+- 0 + 1 = 1  
+- 1 + 1 = 2  
+- 1 + 2 = 3  
+- 2 + 3 = 5  
+- 3 + 5 = 8  
+- 5 + 8 = 13  
+- 8 + 13 = 21  
