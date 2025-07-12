@@ -9,10 +9,10 @@ int main()
 {
     int n;
     cin >> n;
-    int arr[n];
+    int a[n];
     for (int i = 0; i < n; i++)
     {
-        cin >> arr[i];
+        cin >> a[i];
     }
     int targetSum;
     cin >> targetSum;
@@ -26,10 +26,11 @@ int main()
     {
         for (int j = 1; j <= targetSum; j++)
         {
-            if (arr[i - 1] <= j)
+            if (a[i - 1] <= j)
             {
-                dp[i][j] = dp[i - 1][j - arr[i - 1]] || dp[i - 1][j]; // short-cut
-                // bool op1 = dp[i - 1][j - arr[i - 1]]; // long-cut
+                dp[i][j] = dp[i - 1][j - a[i - 1]] || dp[i - 1][j]; // short-cut
+                
+                // bool op1 = dp[i - 1][j - a[i - 1]]; // long-cut
                 // bool op2 = dp[i - 1][j]; // long-cut
                 // dp[i][j] = op1 || op2; // long-cut
             }
