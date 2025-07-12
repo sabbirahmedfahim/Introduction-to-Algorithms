@@ -10,7 +10,7 @@ This repository contains my personal collection of algorithm codes along with br
 # Graph Algorithms
 
 ## Graph Visualization Tools
-- 🔗 [Graph Visual](https://csacademy.com/app/graph_editor)
+- 🔗 [https://csacademy.com/app/graph_editor](https://csacademy.com/app/graph_editor)
 
 ## Graph Representation Methods
 - 🔗 [Implementations (adjacency matrix, adjacency list, edge list)](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_01/README.md)
@@ -41,22 +41,25 @@ This repository contains my personal collection of algorithm codes along with br
 - 🔗 [Problem: NAKANJ - Minimum Knight Moves (SPOJ)](https://www.spoj.com/problems/NAKANJ/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Minimum_Knight_moves__BFS.cpp) 
 
 ## Cycle Detection Methods
-- 🔗 [Unweighted, Using BFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/1_cycle_detect_using_bfs.cpp)
-- 🔗 [Unweighted, Using DFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/2_cycle_detect_using_dfs.cpp)
-- 🔗 [Unweighted, Directed Graph, Using DFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/4_cycle_detect_in_directed_graph.cpp)
-- 🔗 [Weighted, Bellman Ford Negative Cycle Detection](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/2_detect_negative_cycle.cpp)
-- 🔗 [Weighted, Floyd Warshall Negative Cycle Detection](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/8_is_cycle.cpp)
+- 🔗 [Undirected, Using BFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/1_cycle_detect_using_bfs.cpp) | 🔒 [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01/মডিউল-৫ঃ-cycle-detection/মডিউল-৫_১ঃ-cycle-detection-undirected-গ্রাফে)
+- 🔗 [Undirected, Using DFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/2_cycle_detect_using_dfs.cpp) | 🔒 [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01/মডিউল-৫ঃ-cycle-detection/মডিউল-৫_১ঃ-cycle-detection-undirected-গ্রাফে)
+- 🔗 [Directed Graph, Using DFS](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_5/4_cycle_detect_in_directed_graph.cpp) | 🔒 [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01/মডিউল-৫ঃ-cycle-detection/মডিউল-৫_৪ঃ-cycle-detection-directed-গ্রাফে)
+- 🔗 [Bellman Ford Negative Cycle Detection](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/2_detect_negative_cycle.cpp) | 🔒 [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01/মডিউল-৭ঃ-bellmanford-এবং-floyd-warshall-এলগোরিদম/মডিউল-৭-৫ঃ-ডিটেক্ট-নেগেটিভ-সাইকেল)
+- 🔗 [Floyd Warshall Negative Cycle Detection](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/8_is_cycle.cpp)
 
 
 ## Dijkstra's Algorithm
+🔒 Dijkstra's Algorithm Concept [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01/মডিউল-৬ঃ-dijkstra-এলগরিদম)
 - 🔗 [Problem: C. Dijkstra? (CF)](https://codeforces.com/contest/20/problem/C) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/C_Dijkstra__CF.cpp) **Shortest Path Printing**
-- 🔗 [Problem: Shortest Routes I (CSES)](https://cses.fi/problemset/task/1671/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Shortest_Routes_I__Dijkstra.cpp) **Don't forget to use INF = 1E18**
+- 🔗 [Problem: Shortest Routes I (CSES)](https://cses.fi/problemset/task/1671/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Shortest_Routes_I__Dijkstra.cpp) 
 
 ## Bellman-Ford Algorithm
+🔒 Bellman-Ford Algorithm Concept [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01/মডিউল-৭ঃ-bellmanford-এবং-floyd-warshall-এলগোরিদম/testing)
 - 🔗 [Problem: Ford-Bellman (Basecamp)](https://basecamp.eolymp.com/en/problems/1453) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Ford_Bellman__Bellman_Ford.cpp) 
 - 🔗 [Is Cycle?](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/2_detect_negative_cycle.cpp) 
 
 ## Floyd-Warshall Algorithm
+🔒 Floyd-Warshall Algorithm Concept [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01/মডিউল-৭ঃ-bellmanford-এবং-floyd-warshall-এলগোরিদম/neccessityoffloydwarhall)
 - 🔗 [Problem: Shortest Routes II (CSES)](https://cses.fi/problemset/task/1672/) | [Code](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/CP-Code/Shortest_Routes_II__Floyd_Warshall.cpp) 
 - 🔗 [Is Cycle?](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_02/module_7/8_is_cycle.cpp)
 
