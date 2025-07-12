@@ -4,12 +4,14 @@
 #define ull unsigned long long int
 #define nl '\n'
 using namespace std;
-int fact(int n) // O(N)
+
+// There is no repeatition, no need for memorization (for optimization)
+int fact(int n) // O(n)
 {
     if(n == 0) return 1;
     return n*fact(n-1);
 }
-int main() // There are no repeatition, no need for memorization (for optimization)
+int main() 
 { 
     int n; cin >> n;
 
