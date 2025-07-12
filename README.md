@@ -2,7 +2,7 @@
 
 This repository contains my personal collection of algorithm codes along with brief notes or core ideas related to each topic. It serves as a quick reference to what I’ve learned and implemented so far.
 
-🔒 Theory Reference: [phitron-book](https://phitron.io/phitron-book/introduction-to-algorithms-01)  *(private access)*  
+🔒 Theory Reference: [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01)  *(private access)*  
 
 ---
 <br>
@@ -82,13 +82,30 @@ DFS-based topo sort and BFS with a queue (Kahn’s algorithm) both detect cycles
 
 <br>
 
-# Core Algorithms
+# Dynamic Programming
 
-## Prefix Sum Techniques
-- 🔗 [Prefix & Suffix](https://github.com/sabbirahmedfahim/Basic-Data-Structures/blob/main/WEEK_01/week01_day02/equilibrium_index.cpp)
+## Recursion Tree Visualizer
+- 🔗 [https://recursion.vercel.app/](https://recursion.vercel.app/) <br>
 
-## ⚠️ Pending Study Topics
-- Dynamic Programming (Basic DP, 0-1 Knapsack and Variations)
+## Basic DP & Memorization
+
+- 🔗 [Fibonacchi Series](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_05/module_16) | 🔒 [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01/মডিউল-১৭ঃ-বেসিক-ডাইনামিক-প্রোগামিং) 
+
+## 0-1 Knapsack
+- 🔗 [0-1 Knapsack](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_05/module_17) | 🔒 [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01/মডিউল-১৮ঃ-knapsack) | [U. Knapsack](https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/U)
+- 🔗 [0-1 Knapsack Variation (subset sum)](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/tree/main/WEEK_05/module_18) | 🔒 [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01/মডিউল-১৯ঃ-0-1-knapsack-variation)
+
+
+# Merge Sort
+
+## 🔒 Merge Sort Concept [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01/মডিউল-১৭ঃ-বেসিক-ডাইনামিক-প্রোগামিং)
+
+## Implementation
+- 🔗 [Merge](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_06/module_22/0_merge.cpp)
+- 🔗 [Divide](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_06/module_22/1_divide.cpp)
+- 🔗 [Merge Sort](https://github.com/sabbirahmedfahim/Introduction-to-Algorithms/blob/main/WEEK_06/module_22/3_merge_sort.cpp)
+
+
+# ⚠️ Pending Study Topics
 - Unbounded Knapsack and Variations
 - LCS DP and Variations (Longest Common Subsequence)
-- Merge Sort
