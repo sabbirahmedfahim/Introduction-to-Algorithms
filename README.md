@@ -1,8 +1,14 @@
 #### 📖 Algorithms Quick Reference
 
-This repository contains my personal collection of algorithm codes along with brief notes or core ideas related to each topic. It serves as a quick reference to what I’ve learned and implemented so far.
+This repository started as a way to organize my own algorithm learning. The structure of this repository and much of its content come from [Phitron](https://phitron.io/)'s courses, which helped shape my understanding early on. Over time, I added extra problems, notes, and related ideas — things I found useful along the way but weren’t always included in the original materials.
 
-🔒 Theory Reference: [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01)  *(private access)*  
+When my university covered algorithm topics, this repo naturally became my focus. I refined it, filled in gaps, and shaped it into a tool that simply worked for me. In the end, the most useful resources are often the ones we create for ourselves — and that’s what this has been for me.
+
+This is mostly for me, to keep things organized. But if it helps you, that’s nice too.
+
+(Where 🔒 appears, it means *the linked material is private* — sorry about that!)
+
+🔒 Theory Reference: [Phitron_Book](https://phitron.io/phitron-book/introduction-to-algorithms-01)  
 
 ---
 <br>
